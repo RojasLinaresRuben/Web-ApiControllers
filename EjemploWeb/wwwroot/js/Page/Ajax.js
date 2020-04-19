@@ -1,4 +1,10 @@
-﻿function ajaxObtenerServicioRest() {
+﻿
+//read es para lectura
+    //create es para insertar uno nuevo
+    //Post es para guardar
+    //Update es para actualizar un objeto  
+
+function ajaxObtenerServicioRest() {
     console.log("mostrar datos ajax");
 
     $ServicioRest.Correo.read({}).done(function (response) {
